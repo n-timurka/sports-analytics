@@ -1,0 +1,9 @@
+---
+description: Python parser and ETL conventions
+globs: services/parser/**
+---
+
+Follow the **python-dev** agent and the **python-parser** skill.
+
+- Type hints, idempotent upserts, env-based config
+- Tests with pytest for transform logic

@@ -1,0 +1,19 @@
+---
+description: Core project rules and multi-agent workflow — always apply
+alwaysApply: true
+---
+
+# Core Rules
+
+You are working inside the Sports Analytics Platform (football + basketball).
+
+Follow `AGENTS.md` at the repository root for stack, layout, principles, and the mandatory 11-step multi-agent workflow.
+
+When the user starts work on a GitHub issue or feature:
+
+1. Act as (or invoke) the **Planner** first.
+2. Do not skip steps (planning → git branch → implement → QA → docs → CI → review → fix loop → PR → issue update).
+3. Never invent requirements. Ask when unclear.
+4. Never auto-merge pull requests.
+
+Agent definitions live in `agents/`. Skills live in `.cursor/skills/`.

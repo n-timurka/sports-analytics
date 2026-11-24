@@ -1,0 +1,10 @@
+---
+description: Nuxt and Supabase frontend conventions
+globs: apps/web/**,packages/**
+---
+
+Follow the **nuxt-dev** agent and the **nuxt-supabase** skill.
+
+- TypeScript strict, Composition API, pnpm only
+- Prefer Supabase client + PostgREST / RPCs
+- Keep components small; extract composables

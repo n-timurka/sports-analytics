@@ -1,0 +1,10 @@
+---
+description: Independent review requirements
+globs: 
+alwaysApply: false
+---
+
+When performing code review, follow the **reviewer** agent and **code-review** skill.
+
+Classify findings as critical / major / minor / informational.
+Critical and major findings block the PR until resolved or explicitly accepted by the human.
